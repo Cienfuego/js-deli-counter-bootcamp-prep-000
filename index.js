@@ -31,6 +31,6 @@ function currentLine(arr){
 function nowServing(arr){
   
   while( (i = arr.shift()) !== undefined ) {
-    console.log(('Currently serving ' + [i] +'.'));
-}console.log('There is nobody waiting to be served')
+    return(('Currently serving ' + [i] +'.'));
+}return('There is nobody waiting to be served')
 }
