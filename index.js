@@ -28,14 +28,16 @@ function currentLine(arr){
   return(line)
 }
 
-function nowServing(array){
+function nowServing(arr){
   var i;
-  for(i = 0; i < array.length; i++){
-    if(arr.length === 0){
-      console.log('There is nobody waiting to be served!');
-    }else{
-      console.log(`'Currently serving ${array[i]}'`)
-      array.pop(array[i]);
+  for(i = 0; i <= arr.length; i++)
+    if(arr[i] === undefined)
+    {
+      console.log('there noone here!')
+    }
+    else
+    {
+    console.log(`'there\'s ${arr[i]} here'`)
+    
     }
   }
-}
