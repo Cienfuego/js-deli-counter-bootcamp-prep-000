@@ -33,11 +33,10 @@ function nowServing(arr){
   for(i = 0; i <= arr.length; i++)
     if(arr[i] === undefined)
     {
-      console.log('there noone here!')
+      return('there noone here!')
     }
     else
     {
-    console.log(`'there\'s ${arr[i]} here'`)
-    
+    console.log(`'Currently serving ${arr[i]}'`)
     }
   }
