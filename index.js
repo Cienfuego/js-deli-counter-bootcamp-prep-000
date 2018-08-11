@@ -29,14 +29,8 @@ function currentLine(arr){
 }
 
 function nowServing(arr){
-  var i;
-  for(i = 0; i <= arr.length; i++)
-    if(arr[i] === undefined)
-    {
-      return('There is nobody waiting to be served!')
-    }
-    else
-    {
-    return('Currently serving ' + arr[i] +'.')
-    }
-  }
+  
+  while( (i = arr.shift()) !== undefined ) {
+    console.log(('Currently serving ' + [i] +'.'));
+}console.log('There is nobody waiting to be served')
+}
