@@ -37,6 +37,6 @@ function nowServing(arr){
     }
     else
     {
-    return(`'Currently serving ${arr[i]}'`)
+    return(`'Currently serving ${arr[i]}.'`)
     }
   }
