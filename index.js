@@ -29,7 +29,7 @@ function currentLine(arr){
 }
 
 function nowServing(arr){
-  
+  var i;
   while( (i = arr.shift()) !== undefined ) {
     return(('Currently serving ' + [i] +'.'));
 }return('There is nobody waiting to be served');
