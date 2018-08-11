@@ -33,7 +33,7 @@ function nowServing(arr){
   for(i = 0; i <= arr.length; i++)
     if(arr[i] === undefined)
     {
-      return('there noone here!')
+      return('There is nobody waiting to be served!')
     }
     else
     {
